@@ -1,11 +1,10 @@
 "use client";
 
-import { SignUp } from "@clerk/nextjs";
-
 export default function SignUpPage() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "100vh" }}>
-      <SignUp />
+    <div style={{ padding: "40px" }}>
+      <h1>Sign Up Page</h1>
+      <p>Testing if this renders...</p>
     </div>
   );
 }
